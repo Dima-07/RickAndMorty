@@ -7,26 +7,51 @@
 	objects = {
 
 /* Begin PBXFileReference section */
-		CD718A742F0D135F003B5AB6 /* Test net2.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Test net2.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CD718A742F0D135F003B5AB6 /* RickAndMorty.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; name = RickAndMorty.app; path = "/Users/dimakondratenko/Desktop/Проекты /RickAndMorty/build/Debug-iphoneos/RickAndMorty.app"; sourceTree = "<absolute>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CD718A862F0D1361003B5AB6 /* Exceptions for "Test net2" folder in "Test net2" target */ = {
+		CDE3A45E2F1E1266002A3DAD /* Exceptions for "RickAndMorty" folder in "RickAndMorty" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
-				Info.plist,
+				Resources/Info.plist,
 			);
-			target = CD718A732F0D135F003B5AB6 /* Test net2 */;
+			target = CD718A732F0D135F003B5AB6 /* RickAndMorty */;
 		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CD718A762F0D135F003B5AB6 /* Test net2 */ = {
+		CD718A762F0D135F003B5AB6 /* RickAndMorty */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
-				CD718A862F0D1361003B5AB6 /* Exceptions for "Test net2" folder in "Test net2" target */,
+				CDE3A45E2F1E1266002A3DAD /* Exceptions for "RickAndMorty" folder in "RickAndMorty" target */,
 			);
-			path = "Test net2";
+			path = RickAndMorty;
+			sourceTree = "<group>";
+		};
+		CDE3A4632F1E14EF002A3DAD /* ViewModels */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		CDE3A4642F1E1519002A3DAD /* Views */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Views;
+			sourceTree = "<group>";
+		};
+		CDE3A4652F1E1544002A3DAD /* Controllers */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Controllers;
+			sourceTree = "<group>";
+		};
+		CDE3A4662F1E1559002A3DAD /* Models */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Models;
+			sourceTree = "<group>";
+		};
+		CDE3A4672F1E15A5002A3DAD /* Services */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -45,25 +70,21 @@
 		CD718A6B2F0D135F003B5AB6 = {
 			isa = PBXGroup;
 			children = (
-				CD718A762F0D135F003B5AB6 /* Test net2 */,
-				CD718A752F0D135F003B5AB6 /* Products */,
+				CD718A762F0D135F003B5AB6 /* RickAndMorty */,
+				CDE3A4632F1E14EF002A3DAD /* ViewModels */,
+				CDE3A4642F1E1519002A3DAD /* Views */,
+				CDE3A4652F1E1544002A3DAD /* Controllers */,
+				CDE3A4662F1E1559002A3DAD /* Models */,
+				CDE3A4672F1E15A5002A3DAD /* Services */,
 			);
-			sourceTree = "<group>";
-		};
-		CD718A752F0D135F003B5AB6 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				CD718A742F0D135F003B5AB6 /* Test net2.app */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CD718A732F0D135F003B5AB6 /* Test net2 */ = {
+		CD718A732F0D135F003B5AB6 /* RickAndMorty */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CD718A872F0D1361003B5AB6 /* Build configuration list for PBXNativeTarget "Test net2" */;
+			buildConfigurationList = CD718A872F0D1361003B5AB6 /* Build configuration list for PBXNativeTarget "RickAndMorty" */;
 			buildPhases = (
 				CD718A702F0D135F003B5AB6 /* Sources */,
 				CD718A712F0D135F003B5AB6 /* Frameworks */,
@@ -74,13 +95,18 @@
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CD718A762F0D135F003B5AB6 /* Test net2 */,
+				CD718A762F0D135F003B5AB6 /* RickAndMorty */,
+				CDE3A4632F1E14EF002A3DAD /* ViewModels */,
+				CDE3A4642F1E1519002A3DAD /* Views */,
+				CDE3A4652F1E1544002A3DAD /* Controllers */,
+				CDE3A4662F1E1559002A3DAD /* Models */,
+				CDE3A4672F1E15A5002A3DAD /* Services */,
 			);
-			name = "Test net2";
+			name = RickAndMorty;
 			packageProductDependencies = (
 			);
 			productName = "Test net2";
-			productReference = CD718A742F0D135F003B5AB6 /* Test net2.app */;
+			productReference = CD718A742F0D135F003B5AB6 /* RickAndMorty.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -91,14 +117,14 @@
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1640;
-				LastUpgradeCheck = 1640;
+				LastUpgradeCheck = 2620;
 				TargetAttributes = {
 					CD718A732F0D135F003B5AB6 = {
 						CreatedOnToolsVersion = 16.4;
 					};
 				};
 			};
-			buildConfigurationList = CD718A6F2F0D135F003B5AB6 /* Build configuration list for PBXProject "Test net2" */;
+			buildConfigurationList = CD718A6F2F0D135F003B5AB6 /* Build configuration list for PBXProject "RickAndMorty" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -108,11 +134,11 @@
 			mainGroup = CD718A6B2F0D135F003B5AB6;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CD718A752F0D135F003B5AB6 /* Products */;
+			productRefGroup = CD718A6B2F0D135F003B5AB6;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CD718A732F0D135F003B5AB6 /* Test net2 */,
+				CD718A732F0D135F003B5AB6 /* RickAndMorty */,
 			);
 		};
 /* End PBXProject section */
@@ -147,10 +173,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LLS5JD768K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Test net2/Info.plist";
+				INFOPLIST_FILE = RickAndMorty/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -158,7 +183,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.my.Test-net2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.RickAndMorty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -175,10 +200,9 @@
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_TEAM = LLS5JD768K;
 				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = "Test net2/Info.plist";
+				INFOPLIST_FILE = RickAndMorty/Resources/Info.plist;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -186,7 +210,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.my.Test-net2";
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.RickAndMorty;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
@@ -253,6 +277,7 @@
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -310,6 +335,7 @@
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
 				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
 			};
@@ -318,7 +344,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CD718A6F2F0D135F003B5AB6 /* Build configuration list for PBXProject "Test net2" */ = {
+		CD718A6F2F0D135F003B5AB6 /* Build configuration list for PBXProject "RickAndMorty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD718A8A2F0D1361003B5AB6 /* Debug */,
@@ -327,7 +353,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CD718A872F0D1361003B5AB6 /* Build configuration list for PBXNativeTarget "Test net2" */ = {
+		CD718A872F0D1361003B5AB6 /* Build configuration list for PBXNativeTarget "RickAndMorty" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				CD718A882F0D1361003B5AB6 /* Debug */,
